@@ -1,0 +1,11 @@
+[
+  {"id":1,"title":"Frontend Developer Intern","company":"Nimbus Labs","domain":"Web Development","mode":"Remote","location":"India","duration":"3 months","description":"Build responsive UI components with HTML, CSS and JavaScript alongside a friendly mentor.","applyUrl":"#"},
+  {"id":2,"title":"UI/UX Design Intern","company":"PixelNest","domain":"Design","mode":"Hybrid","location":"Bengaluru","duration":"2 months","description":"Create wireframes and prototypes for a student-focused mobile app.","applyUrl":"#"},
+  {"id":3,"title":"Data Analyst Intern","company":"Insightly","domain":"Data","mode":"Remote","location":"India","duration":"3 months","description":"Clean datasets, build dashboards and present weekly findings to the team.","applyUrl":"#"},
+  {"id":4,"title":"Content Writing Intern","company":"BrightPen Media","domain":"Marketing","mode":"Remote","location":"Anywhere","duration":"1 month","description":"Write blog posts and social captions for tech and education brands.","applyUrl":"#"},
+  {"id":5,"title":"Python Developer Intern","company":"CodeCraft","domain":"Software","mode":"On-site","location":"Pune","duration":"6 months","description":"Work on backend scripts and small APIs using Python and Flask.","applyUrl":"#"},
+  {"id":6,"title":"Digital Marketing Intern","company":"GrowthLoop","domain":"Marketing","mode":"Hybrid","location":"Mumbai","duration":"3 months","description":"Assist with SEO, email campaigns and analytics reporting.","applyUrl":"#"},
+  {"id":7,"title":"Graphic Design Intern","company":"Studio Marigold","domain":"Design","mode":"Remote","location":"India","duration":"2 months","description":"Design social media graphics and brand assets using Figma.","applyUrl":"#"},
+  {"id":8,"title":"QA Testing Intern","company":"Nimbus Labs","domain":"Software","mode":"Remote","location":"India","duration":"3 months","description":"Write test cases, report bugs and learn basic test automation.","applyUrl":"#"},
+  {"id":9,"title":"Accessibility Intern","company":"OpenDoor Tech","domain":"Web Development","mode":"Remote","location":"Anywhere","duration":"2 months","description":"Audit websites against WCAG guidelines and suggest practical fixes.","applyUrl":"#"}
+]
