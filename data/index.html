@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Internship Board</title>
+  <meta name="description" content="Search and filter fictional internship listings. Accessible and responsive.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#results">Skip to results</a>
+
+  <header class="site-header">
+    <div class="container">
+      <h1>Internship Board</h1>
+      <p class="tagline">Find a beginner-friendly internship. Listings are fictional demo data.</p>
+    </div>
+  </header>
+
+  <main class="container" id="main">
+    <form class="filters" role="search" aria-label="Filter internships" id="filter-form">
+      <div class="field">
+        <label for="search">Search by title or company</label>
+        <input type="search" id="search" name="search" placeholder="e.g. design, Nimbus" autocomplete="off">
+      </div>
+
+      <div class="field">
+        <label for="domain">Domain</label>
+        <select id="domain" name="domain">
+          <option value="all">All domains</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="mode">Work mode</label>
+        <select id="mode" name="mode">
+          <option value="all">Any</option>
+          <option value="Remote">Remote</option>
+          <option value="Hybrid">Hybrid</option>
+          <option value="On-site">On-site</option>
+        </select>
+      </div>
+
+      <button type="reset" class="btn btn-secondary" id="reset-btn">Clear filters</button>
+    </form>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+
+    <section id="results" tabindex="-1" aria-label="Internship results">
+      <ul id="list" class="grid" role="list"></ul>
+
+      <div id="loading" class="message" hidden>Loading internships…</div>
+
+      <div id="empty" class="message" hidden>
+        <h2>No internships found</h2>
+        <p>Try a different keyword or clear the filters.</p>
+        <button type="button" class="btn" id="empty-reset">Clear filters</button>
+      </div>
+
+      <div id="error" class="message message-error" role="alert" hidden>
+        <h2>Could not load internships</h2>
+        <p>Check your connection and try again. If you opened this file directly, serve it with a local server or GitHub Pages.</p>
+        <button type="button" class="btn" id="retry">Try again</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>Tip: press <kbd>/</kbd> to jump to search, <kbd>Esc</kbd> to clear it.</p></div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
